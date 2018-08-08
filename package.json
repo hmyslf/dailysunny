@@ -1,0 +1,49 @@
+{
+    "name": "dailysunny",
+    "author": "Prime Strategy Indonesia",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node node_modules\/react-native\/local-cli\/cli.js start",
+        "build-pro": "yarn run uninstall && yarn run clean-project && react-native run-android --variant=release",
+        "build-dev": "yarn run uninstall && react-native run-android",
+        "android-dev": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android\/app\/src\/main\/assets\/index.android.bundle --assets-dest android\/app\/src\/main\/res && react-native run-android",
+        "uninstall": "adb uninstall com.psi.dailysunny",
+        "clean-project": "rm -rf .\/android\/app\/build\/*",
+        "test": "jest"
+    },
+    "dependencies": {
+        "create-react-app": "^1.5.2",
+        "global": "^4.3.2",
+        "react": "16.3.1",
+        "react-native": "0.55.4",
+        "react-native-config": "^0.11.5",
+        "react-native-fetch-blob": "^0.10.8",
+        "react-native-onesignal": "^3.1.4",
+        "react-native-pdf": "^3.0.16",
+        "react-navigation": "^2.6.0",
+        "cordova-plugin-inappbrowser": "2.0.1",
+        "cordova-custom-config": "5.0.2",
+        "monaca-plugin-backend": "2.0.1"
+    },
+    "devDependencies": {
+        "babel-eslint": "^8.2.5",
+        "babel-jest": "23.2.0",
+        "babel-preset-react-native": "4.0.0",
+        "eslint": "^5.1.0",
+        "eslint-config-google": "^0.9.1",
+        "eslint-plugin-react": "^7.10.0",
+        "jest": "23.2.0",
+        "react-test-renderer": "16.3.1"
+    },
+    "jest": {
+        "preset": "react-native"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-inappbrowser": {},
+            "cordova-custom-config": {},
+            "monaca-plugin-backend": {}
+        }
+    }
+}

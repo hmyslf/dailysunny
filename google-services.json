@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1011113559794",
+    "firebase_url": "https://monaca-demo-9b17e.firebaseio.com",
+    "project_id": "monaca-demo-9b17e",
+    "storage_bucket": "monaca-demo-9b17e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011113559794:android:3af80c299fa69e25",
+        "android_client_info": {
+          "package_name": "com.psi.dailysunny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011113559794-7tmvqibt4kuh7pdergieb80nbdqgl0m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTcUhdQlZDxZSq1F72hu94ap-GVFtxomo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
