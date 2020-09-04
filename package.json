@@ -22,7 +22,7 @@
         "react-native-onesignal": "^3.1.4",
         "react-native-pdf": "^3.0.16",
         "react-navigation": "^2.6.0",
-        "cordova-plugin-inappbrowser": "2.0.1",
+        "cordova-plugin-inappbrowser": "3.1.0",
         "cordova-custom-config": "5.0.2",
         "monaca-plugin-backend": "2.0.1"
     },
